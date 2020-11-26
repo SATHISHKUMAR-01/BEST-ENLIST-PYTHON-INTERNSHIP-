@@ -16,12 +16,12 @@ def delfromlist(list,x):
 x=int(input("ENTER THE ELEMENT TO DELETE FROM LIST :"))
 delfromlist(list,x)
 
-for i in list:
-    min_int=min(list)
+
+min_int=min(list)
 print("THE SMALLEST INTEGER :",min_int)
 
-for j in list:
-    max_int=max(list)
+
+max_int=max(list)
 print("THE LARGEST INTEGER :",max_int)
 
 #EXERCISE 2
