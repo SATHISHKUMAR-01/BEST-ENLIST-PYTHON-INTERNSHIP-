@@ -34,7 +34,7 @@ for i in range(0,h,1):
     a.insert(i,u)   
 print("The given list :",a)
 y=int(input("Enter the number which you want to multiply with each element in list:"))
-print("The list after multiplying ",x,"to each number in list : ",list(map(lambda x:x*y,a)))
+print("The list after multiplying ",y,"to each number in list : ",list(map(lambda x:x*y,a)))
 
 ################# NUMBERS DIVISIBLE BY 9 FROM A LIST OF INTEGERS #############################
 a=[]
