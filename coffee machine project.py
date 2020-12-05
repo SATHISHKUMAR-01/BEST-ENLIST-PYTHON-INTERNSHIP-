@@ -37,7 +37,7 @@ class coffee:
         print("\n ***** THE COST OF YOUR COFFEE IS  $10 *****") 
         print("\n ENTER THE SUFFICIENT MONEY TO GET YOUR DRINK ")
         print("\n The acceptable money notations are : \nquarter ($0.25)\ndimes (0.10)\nnickles ($0.05)\npennies ($0.01)")
-        qu=int(input("\nEnter the money in  terms of quarter : "))
+        qu=int(input("\nEnter the money in  terms of quarter....(for example, if you have 4 coins of quarter ....enter 4) : "))
         di=int(input("\nEnter the money in  terms of dimes (IF ENTERED SUFFICIENT AMOUNT PLEASE ENTER 0): "))
         ni=int(input("\nEnter the money in  terms of nickles (IF ENTERED SUFFICIENT AMOUNT PLEASE ENTER 0): "))
         pe=int(input("\nEnter the money in  terms of pennies (IF ENTERED SUFFICIENT AMOUNT PLEASE ENTER 0): "))
