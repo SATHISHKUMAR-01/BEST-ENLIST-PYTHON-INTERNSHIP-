@@ -121,7 +121,7 @@ while(run>=1):
                 if(C.tran=="success"):
                     print("\n Here is your CAPPUCCINO. ENJOY!!!!! ")
 
-        elif(cof_choi>3 or cof_choice==0):
+        elif(cof_choi>3 or cof_choi==0):
             print("\n:(  You have choosed wrong choice of coffee....Please try it again  :(")
 
         C.chec()
